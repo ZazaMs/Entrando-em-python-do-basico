@@ -28,3 +28,18 @@ Booleano = Sim ou Nao, True or false, basicamente isso"""
 a=b=c=('zaza')
 if a == b:
     print(c)
+
+    """Pontos importantes ao declarar variaveis:
+    -Os nomes das variáveis só podem conter letras (a-z, A-Z), números (0-9) e sublinhados (_). Não podem começar com um número.
+    -O Python diferencia maiúsculas de minúsculas, então nome e Nome são variáveis diferentes.
+    -Não se pode usar palavras-chave reservadas do Python como nomes de variáveis (por exemplo, if, else, for, while, etc.).
+    -Recomenda-se usar nomes descritivos para as variáveis, que indiquem claramente seu propósito: nome, idade, total_vendas, etc.
+
+    alguns exemplos de nomes de variáveis inválidos são:
+    
+    1idade , Comeca com numero
+    nome-completo , Usa um hífen em vez de um sublinhado
+    if , Palavra-chave reservada do Python
+"""
+
+
